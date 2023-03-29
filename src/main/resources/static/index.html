@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>Logging output
+        <ul>
+            <li><a href="/log-test">Logging test</a></li>
+        </ul>
+    </li>
+    <!-- -->
+    <li>Request mapping
+        <ul>
+            <li><a href="/hello-basic">hello-basic</a></li>
+            <li><a href="/mapping-get-v1">HTTP method mapping</a></li>
+            <li><a href="/mapping-get-v2">HTTP method mapping abbreviation</a></li>
+            <li><a href="/mapping/userA">Path variables</a></li>
+            <li><a href="/mapping/users/userA/orders/100">Multiple path variables</a></li>
+            <li><a href="/mapping-param?mode=debug">Specific parameter condition mapping</a></li>
+            <li><a href="/mapping-header">Specific header condition mapping (requires POSTMAN)</a></li>
+            <li><a href="/mapping-consume">Media type condition mapping Content-Type (requires POSTMAN)</a></li>
+            <li><a href="/mapping-produce">Media type condition mapping Accept (requires POSTMAN)</a></li>
+        </ul>
+    </li>
+    <li>Request mapping - API example
+        <ul>
+            <li>requires POSTMAN</li>
+        </ul>
+    </li>
+    <li>HTTP request basics
+        <ul>
+            <li><a href="/headers">Basics, header lookup</a></li>
+        </ul>
+    </li>
+    <li>HTTP request parameters
+        <ul>
+            <li>
+                <a href="/request-param-v1?username=hello&age=20">Request parameters v1</a>
+            </li>
+            <li>
+                <a href="/request-param-v2?username=hello&age=20">Request parameters v2</a>
+            </li>
+            <li>
+                <a href="/request-param-v3?username=hello&age=20">Request parameters v3</a>
+            </li>
+            <li>
+                <a href="/request-param-v4?username=hello&age=20">Request parameters v4</a></li>
+            <li>
+                <a href="/request-param-required?username=hello&age=20">Required request parameters</a>
+            </li>
+            <li>
+                <a href="/request-param-default?username=hello&age=20">Default values for request parameters</a>
+            </li>
+            <li>
+                <a href="/request-param-map?username=hello&age=20">Request parameters MAP</a>
+            </li>
+            <li>
+                <a href="/model-attribute-v1?username=hello&age=20">Request parameters @ModelAttribute v1</a>
+            </li>
+            <li>
+                <a href="/model-attribute-v2?username=hello&age=20">Request parameters @ModelAttribute v2</a>
+            </li>
+        </ul>
+    </li>
+    <li>HTTP request message
+        <ul>
+            <li>POSTMAN</li>
+        </ul>
+    </li>
+    <li>HTTP response - static resources, view templates
+        <ul>
+            <li><a href="/basic/hello-form.html">Static resources</a></li>
+            <li><a href="/response-view-v1">View template v1</a></li>
+            <li><a href="/response-view-v2">View template v2</a></li>
+        </ul>
+    </li>
+    <li>HTTP response - directly input to the message body of an HTTP API
+        <ul>
+            <li><a href="/response-body-string-v1">HTTP API String v1</a></li>
+            <li><a href="/response-body-string-v2">HTTP API String v2</a></li>
+            <li><a href="/response-body-string-v3">HTTP API String v3</a></li>
+            <li><a href="/response-body-json-v1">HTTP API Json v1</a></li>
+            <li><a href="/response-body-json-v2">HTTP API Json v2</a></li>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>
